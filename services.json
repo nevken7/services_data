@@ -1,14 +1,14 @@
 {
   "services": [
     {
-      "main": ["full service", "packers service", "movers service"],
-      "packers": ["loading & unloading", "packing & unpacking"],
-      "movers": [
-        "local move",
+      "main": ["service 1", "service 2", "service 3"],
+      "service 2": ["service 2.1", "serrvice 2.2"],
+      "service 3": [
+        "service 3.1",
         {
-          "long distance move": [
-            "consolidated move",
-            "exclusive direct transport"
+          "service 3.2": [
+            "service 3.2.1",
+            "service 3.2.2"
           ]
         }
       ]
